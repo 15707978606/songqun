@@ -1,0 +1,32 @@
+img{display: block;}
+ul,li{list-style: none;}
+*{padding:0;margin:0;}
+a{text-decoration: none;}
+html,body{font-family: "微软雅黑";background:lightgray;}
+#container{width:640px;height:960px;margin:30px auto;background:#fff;}
+.top{border-bottom:1px solid #282828;}
+.head{position:relative;}
+.head a{width:51px;height:34px;position:absolute;top:29px;left:20px;background:url(../img/tou.png);}
+.search{height:86px;background:#52525a;border-bottom:1px solid #282828;display:flex;align-items: center;justify-content: center;}
+.search_c{width:590px;height:56px;border-radius: 30px;border-top:1px solid #c8c8c8;background:#fff;display: flex;justify-content: flex-start;align-items: center;}
+.btn{width:34px;height:38px;background:url(../img/search.png) no-repeat;border:none;margin-left:25px;}
+.txt{border:none;font-size:25px;text-indent: 13px;font-family: "微软雅黑";}
+.content{height:733px;overflow-x: hidden;}
+.left img{width:172px;height:172px;border:1px solid #c8c8c8;}
+.box{display: flex;justify-content:flex-start;padding:20px 45px 25px 15px;border-top:1px solid #636363;border-bottom:1px solid #70706e;}
+.borderb{border-bottom:none;}
+.right{width:362px;padding-left:17px;color:#333;}
+.jiang{font-size:26px;line-height:42px;}
+.pic{display: flex;justify-content: space-between;align-items:center;flex-direction: row;}
+.pic span{font-size:29px;line-height:53px;color:#f882a5;padding:0 19px 0 6px;}
+.pic del{color:#bcbabb;font-size:19px;}
+.pic em{font-size:24px;line-height:28px;font-style:normal;padding-left:8px;}
+.cart{width:118px;height:52px;border-radius: 9px;border:none;background:#f15e88 url(../img/cart.png) center no-repeat;}
+.foot{background:#484850;border-top:1px solid #000;}
+.foot ul{height:96px;border-top:1px solid #636363;display: flex;display: flex;justify-content: center;align-items: center;}
+.foot li{box-sizing:border-box;padding:5px 39px 0 38px ;border-top:5px solid transparent;}
+.foot li a{color:#fff;display:block;}
+.foot span{margin-top:6px;width:49px;height:50px;display: block;background:url(../img/foot.png);}
+.foot li  p{font-size:18px;line-height:40px;text-align: center;}
+.foot li.active{border-top:5px solid #e4366b;}
+.foot li:hover{border-top:5px solid #e4366b;}

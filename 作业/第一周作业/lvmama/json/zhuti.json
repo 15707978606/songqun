@@ -1,0 +1,192 @@
+[
+  {
+    "name":"城市精品",
+    "logoimg":["http://pic.lvmama.com/uploads/pc/place2/2016-05-26/22c386c7-af5e-4d5e-8b2c-481c8f30abd7.jpg","http://pic.lvmama.com/uploads/pc/place2/2016-05-26/7ba3fb1c-1a27-4f84-8391-b9109aa4711c.jpg"],
+    "imgSrc":[
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-01-07/28ee79aa-bbed-46ee-86d3-561570457361_300_200.jpg",
+                  "title":"泰州 | 泰州世茂茂御酒店",
+                  "pic":"358"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-09-06/198ffd0c-20fe-47ab-8d35-ea633a222c85_300_200.jpg",
+                  "title":"嘉兴 | 义乌万达嘉华酒店",
+                  "pic":"509"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-08-15/ade714ed-5cef-4896-9515-c3a3f0d08761_300_200.jpg",
+                  "title":"南京 | 南京柏华丽致温泉酒店",
+                  "pic":"600"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-04-05/f0a09936-b936-4f47-9b4b-5d2e76e482a8_300_200.jpg",
+                  "title":"宜兴 | 宜兴禄漪园国际大酒店",
+                  "pic":"458"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-08-08/00718b3a-a115-430c-8193-75a99d2d8b47_300_200.jpg",
+                  "title":"杭州 | 杭州尊蓝钱江豪华精品酒店",
+                  "pic":"1176"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-01-05/8d60c1a8-3100-43e0-b92d-6e9058f0bdc1_300_200.jpg",
+                  "title":"南京 | 南京苏宁索菲特钟山灵",
+                  "pic":"545"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1018/10180/gp3_M00_6F_C7_toYBAFR8Jj-Acv6ZAARRERkyYzc709_300_200.jpg",
+                  "title":"江阴 | 江阴黄嘉喜来登酒店",
+                  "pic":"699"
+                },
+                {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/606/6065/gp1_M00_15_E0_pIYBAFMqpkSAcZ0XAAK2TxVCX4U360_300_200.jpg",
+                  "title":"宁波 | 宁波香格里拉大酒店",
+                  "pic":"742"
+                }
+              ]
+  },
+  {
+    "name":"驴悦亲子",
+    "logoimg":["http://pic.lvmama.com/uploads/pc/place2/2016-05-26/9b5bbdea-2c05-4090-861b-5c565422dc16.jpg","http://pic.lvmama.com/uploads/pc/place2/2016-05-26/9a5d94af-3960-4c9e-9fc8-eac2ac52140b.jpg"],
+    "imgSrc":[
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-02-27/0ae9d372-de0f-4c77-a869-a132996c7fa1_300_200.jpg",
+        "title":"南京 | 南京格林豪泰(汤山)",
+        "pic":"151"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-12-28/3eb9e584-9ed3-4ee9-adc2-10a7d378c180_300_200.jpg",
+        "title":"苏州 | 苏州文旅花间堂(探索)",
+        "pic":"1280"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-03-09/772e21a0-0107-48ea-a476-72a14f80194d_300_200.jpg",
+        "title":"苏州 | 苏州友联假日酒店",
+        "pic":"318"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1127/11275/_i_Mobile640_960_0000gE7G_300_200.jpg",
+        "title":"杭州 | 杭州西溪悦椿度假酒店",
+        "pic":"978"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/0/0/gp1_M00_CD_D3_pYYBAFIodyOAd5Y-AAFpDWCPBy4432_300_200.jpg",
+        "title":"上海 | 上海浦东绿地假日酒店",
+        "pic":"702"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-01-08/615b37db-5fd7-4d39-8db4-c90a962ee11a_300_200.jpg",
+        "title":"杭州 | 杭州宋城千古情主题",
+        "pic":"319"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1005/10050/gp3_M00_79_CB_toYBAFR2yQeASYs9AAOiPpoymS8566_300_200.jpg",
+        "title":"厦门 | 厦门悦华酒店",
+        "pic":"639"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-10-19/7efd9290-1df6-42b5-9e07-1d12d3b5d2f4_300_200.jpg",
+        "title":"千岛湖 | 千岛湖润和建国度假酒店",
+        "pic":"528"
+      }
+    ]
+  },
+  {
+    "name":"市郊游乐",
+    "logoimg":["http://pic.lvmama.com/uploads/pc/place2/2016-05-26/c1a2efcf-d83a-4ebd-b56e-43213631d0fc.jpg","http://pic.lvmama.com/uploads/pc/place2/2016-05-26/7ba3fb1c-1a27-4f84-8391-b9109aa4711c.jpg"],
+    "imgSrc":[
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-09-06/aac4390c-ac10-4d3a-b6cb-0e3a5488454b_300_200.jpg",
+        "title":"无锡 | 无锡拈花客栈",
+        "pic":"146"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-12-25/1592dfea-528a-4b53-b630-a4a20d77f9e6_300_200.jpg",
+        "title":"扬州 | 扬州扬鹏锦江大酒店",
+        "pic":"428"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-01-06/a468d649-b82d-4e48-9139-771e2a36aa24_300_200.jpg",
+        "title":"无锡 | 无锡田园东方花间堂",
+        "pic":"480"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-03-09/e4a226d2-7956-415f-9691-69e1ddc5d110_300_200.jpg",
+        "title":"上海 | 玩具总动员酒店",
+        "pic":"684"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-06-13/2dd89aee-47b5-4e15-9842-4bb570aea1e5_300_200.jpg",
+        "title":"武当山| 武当山众晶太极湖园",
+        "pic":"369"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-09-19/db696796-d93d-4506-b0de-72405d6e5cdb_300_200.jpg",
+        "title":"上海 | 上海崇明龙越大酒店",
+        "pic":"225"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-11-03/55773d3e-ee08-4cbf-a7db-844a57d67d0c_300_200.jpg",
+        "title":"厦门 | 厦门希尔顿逸林酒店",
+        "pic":"770"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/638/6382/gp1_M00_0A_A9_poYBAFNsjsqAFW0zAAMcsMEdH9M305_300_200.jpg",
+        "title":"杭州 |桐庐雷迪森度假酒店",
+        "pic":"478"
+      }
+    ]
+  },
+  {
+    "name":"名山胜景",
+    "logoimg":["http://pic.lvmama.com/uploads/pc/place2/2016-05-26/2367bb47-2c60-47a3-b8e0-fcab1d748f72.jpg","http://pic.lvmama.com/uploads/pc/place2/2016-05-26/41fef7d5-964e-4cfa-ac0b-ff54d4f46bcd.jpg"],
+    "imgSrc":[
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/998/9982/gp3_M00_DE_93_tYYBAFR1deCAEvuBAAMcbOZHinM387_300_200.jpg",
+        "title":"上饶 | 三清山日上山庄",
+        "pic":"480"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-05-12/f38e96bb-031d-4f06-b9fd-6037d1ef499f_300_200.jpg",
+        "title":"上饶 | 三清山天门山庄",
+        "pic":"305"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-07-13/5df260d4-8074-428c-9045-18f52d5a23e1_300_200.jpg",
+        "title":"安徽 | 大别山彩虹村度假酒店",
+        "pic":"218"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-07-02/714f0eec-6ee1-4eec-87a3-0ab4e4a43f84_300_200.jpg",
+        "title":"舟山 | 舟山喜来登绿城酒店",
+        "pic":"515"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1125/11255/_i_Mobile640_960_00009tan_300_200.jpg",
+        "title":"上海 |上海佘山金地岚韵酒店",
+        "pic":"898"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-04-27/9ca4a437-f1ce-4853-9175-9590a8374a37_300_200.jpg",
+        "title":"上饶 | 三清山国际度假酒店",
+        "pic":"640"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1138/11380/_i_Mobile640_960_0000jNOm_300_200.jpg",
+        "title":"南京 | 南京汤山颐和酒店",
+        "pic":"368"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1130/11309/_i_Mobile640_960_0000kFLz_300_200.jpg",
+        "title":"苏州 | 昆山新港湾大酒店",
+        "pic":"588"
+      }
+    ]
+  },
+  {
+    "name":"酒店控",
+    "logoimg":["http://pic.lvmama.com/uploads/pc/place2/2016-05-09/f5aa2794-601a-4f60-9e71-6719039a35e1.jpg","http://pic.lvmama.com/uploads/pc/place2/2016-05-09/8ade6fa1-c0f3-4510-ae5a-4bf596b575af.jpg"],
+    "imgSrc":[
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-01-12/27ce1796-34e3-4e53-a1f8-d9f46ad88d82_300_200.jpg",
+        "title":"丽水 | 丽水花侨开元名都大酒店",
+        "pic":"428"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-07-08/4140592e-e42f-491a-ae6e-bcac95a32d69_300_200.jpg",
+        "title":"东阳 | 东阳龙景雷迪森庄园",
+        "pic":"549"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1117/11178/_i_Mobile640_960_0000iNfn_300_200.jpg",
+        "title":"扬州 | 扬州金陵大饭店",
+        "pic":"488"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2014-10-17/1413535360066_300_200.jpg",
+        "title":"潥阳 | 南山竹海客栈(精品)",
+        "pic":"435"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1018/10180/gp3_M00_6F_C7_toYBAFR8Jj-Acv6ZAARRERkyYzc709_300_200.jpg",
+        "title":"江阴 | 江阴黄嘉喜来登酒店",
+        "pic":"699"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2015-04-07/d321ae38-8a9e-4adb-be23-fbd71aa35a3a_300_200.jpg",
+        "title":"潥阳 | 天目湖维景国际温泉",
+        "pic":"385"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place2/2016-04-01/02019068-209e-4fc9-8af4-03d5643012b2_300_200.jpg",
+        "title":"苏州 | 苏州雅杰大酒店(原)",
+        "pic":"369"
+      },
+      {"img":"http://pic.lvmama.com/pics//uploads/pc/place_vst/hotels/1005/10050/gp3_M00_79_CB_toYBAFR2yQeASYs9AAOiPpoymS8566_300_200.jpg",
+        "title":"厦门 | 厦门悦华酒店",
+        "pic":"639"
+      }
+    ]
+  }
+]

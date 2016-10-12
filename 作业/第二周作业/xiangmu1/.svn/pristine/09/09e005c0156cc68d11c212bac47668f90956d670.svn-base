@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/common.css">
+   <style>
+       .left img{height:166px;}
+       .zeng{font-size:29px;margin-left:-12px;}
+       .danjia{font-size:30px;}
+       .pic{align-items: flex-end;}
+       .pic em{padding:0;}
+   </style>
+</head>
+<body>
+    <div id="container">
+        <div class="top">
+            <img src="../img/logo.jpg"/>
+        </div>
+        <div class="head">
+            <img src="../img/logo2.png"/>
+            <a href="page1.html"></a>
+        </div>
+        <div class="search">
+            <div class="search_c">
+                <button class="btn"></button>
+                <input type="text" class="txt" placeholder="请输入搜索内容"/>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img1.jpg"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥99</span></p>
+                            <p>
+                                <em>3.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img2.jpg"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥99</span></p>
+                            <p>
+                                <em>4.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img1.jpg"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥0</span></p>
+                            <p>
+                                <em>3.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img2.jpg"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥0</span></p>
+                            <p>
+                                <em>3.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img1.png"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥0</span></p>
+                            <p>
+                                <em>3.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="../img/img2.jpg"/>
+                </div>
+                <div class="right">
+                    <p class="jiang">ESPRIT 阿尼玛眼睛框</p>
+                    <div class="pic">
+                        <div>
+                            <div class="zeng">【买一赠一】</div>
+                            <p class="danjia">单价:<span>￥0</span></p>
+                            <p>
+                                <em>3.8折</em>
+                                <del>￥499</del>
+                            </p>
+                        </div>
+                        <button class="cart"></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <ul>
+                <li>
+                    <a href="page1.html">
+                        <span></span>
+                        <p>首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="page2.html" >
+                        <span style="background-position:-49px top;"></span>
+                        <p>分类</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <span style="background-position:-98px top;"></span>
+                        <p>购物车</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="page3.html">
+                        <span style="background-position:-148px top;"></span>
+                        <p>我的秀</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <span style="background-position:-196px top;"></span>
+                        <p>更多</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

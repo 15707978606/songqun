@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>乐聚慧生活</title>
+		<style>
+			*{padding:0;margin:0;}
+			a{text-decoration: none;}
+			ul,li{list-style: none;}
+			#container,.top_content,.wo_content{width:92%;margin:0 auto;}
+			html,body{width:100%;height:100%;font-size:12px;font-family: "微软雅黑"}
+			.top_content{padding:25px 0 2% 0;overflow: hidden;}
+			.left{float:left;}
+			.left img{display: block;}
+			.right{width:66%;float:right;}
+			.right p{text-align: right;display: block;line-height:40px;}
+			.right p a{color:#666;padding:0 4px 0 11px;}
+			.seacher{width:306px;height:26px;float:right;}
+			.txt{float:left;width:80%;height:26px;border:none;border:1px solid #cccccc;border-right:none;box-sizing: border-box;font-family: "微软雅黑";;text-indent: 10px}
+			.btn{width:20%;float:right;border:none;height:26px;background:#329610;color:#fff;}
+			.nav{background:#439f22;line-height:50px;position: relative;}
+			.link1{width:92%;margin:0 auto;text-align: center;}
+			.link1 li{display:inline-block;}
+			.link1 li a{padding:0 35px;color:#fff;font-size:14px;display: inline-block;}
+			.link1 li a.active{background:#0b8301;}
+			.link1 li:nth-of-type(1){background:#0b8301;}
+			.link1 li.more{display:none;position:relative;}
+			.link2 {display:none;position:absolute;top:35px;left:0;}
+			.link2 li a{background:#009635;}
+			.link2 li a:hover{background:#0b8301;}
+			.img img{width:100%;}
+			#container{text-align: center;padding:8% 0  7% 0;}
+			.title_h2{font-size:39px;padding-bottom:24px;}
+			.title_h3{color:#999999;font-size:18px;font-weight: normal;padding-bottom:25px;}
+			.content{overflow: hidden;}
+			.content dl{float:left;width:32%;margin:0 0.5%;}
+			.content dl img{width:100%;}
+			.content dl h4{color:#333;font-size:17px;padding:20px 0 18px 0;}
+			.content dl p{color:#666;line-height:21px;}
+			#wo{width:100%;background:#499e27;overflow: hidden;padding:5% 0 7%;border-bottom:1px dashed #ccc;}
+			.wo_left,.wo_right{width:48%;float:left;}
+			.wo_left{margin-right:4%;}
+			.wo_right{float:left;}
+			.tit{font-size:25px;line-height:55px;color:#fff;border-bottom:1px solid #ccc;font-weight: normal;}
+			.wo_left p{line-height:23px;text-indent: 17px;padding:18px 0 10px;color:#fff;}
+			.wo_left img{width:100%;}
+			.tit span{width:61px;height:24px;line-height:24px;text-align:center;background:#efffbf;color:#767871;font-size:13px;font-weight: normal;float:right;margin-top:22px;}
+			.wo_right dl{overflow: hidden;padding:25px 0 15px 0;}
+			.wo_right dt{float:left;width:25%;}
+			.wo_right dt img{width:100%;}
+			.wo_right dd{float:right;width:75%;padding:0 10px 0 15px;box-sizing: border-box;color:#fff;line-height:20px;}
+			.wo_right ul li {height:26px;line-height:26px;border-bottom:1px dashed #fff;}
+			.wo_right ul li i{width:4px;height:4px;background:#f29600;float:left;margin:11px 8px 0 0 ;}
+			.wo_right ul li a{width:65%;display:block;color:#dfffbf;float:left;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+			.wo_right ul li span{color:#bfc8bb;float:right;}
+			.foot{text-align: center;}
+			.tel{font-size:14px;color:#444;padding:4% 0 16px ;}
+			.copy{color:#888;padding-bottom:6px;}
+			.wang{color:#888;}
+			@media all and (max-width:768px){
+				.seacher{width:100%;}
+				.right p{line-height:32px;text-align: center;}
+				.left{width:100%;clear: both;}
+				.left img{margin:0 auto;}
+				.right{width:100%;}
+				.link1{width:100%;border:1px solid #00792b;position:absolute;}
+				.link1 li{display: none;text-align: left;text-indent: 10px;}
+				.link1 li a{color:#666;}
+				.link1 li:nth-of-type(1){display: block;}
+				.link1 li:nth-of-type(1) a{color:#fff;background:#0b8301;}
+				.link1 li a{display:list-item; padding:0;background:#fff;}
+				.link1 li a:hover{color:#fff;}
+				.link1 li.more{display:none;}
+				.nav{height:35px;line-height:35px;}
+				.tool{float:right;margin:16px 10px 0 0 ;width:0;height:0;display: block;border:6px solid #fff;border-color: #fff transparent transparent transparent;}
+				.top_content{width:96%;}
+				.content dl{float: none;width:100%;}
+				.wo_left,.wo_right{float:none;width:100%;}
+
+			}
+
+			@media all and (min-width:769px) and (max-width:887px){
+				.link1 li.none{display:none;}
+				.link1 li.more{display:inline-block;}
+			}
+			@media all and (min-width:447px) and (max-width:768px) {
+				.content dl img{width:420px;}
+
+			}
+			@media all and (max-width:447px) {
+				.content dl img{width:50%;}
+				.wo_right dt,.wo_right dd{float:none;width:100%;}
+				.wo_right dd{padding:0;}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="top">
+			<div class="top_content">
+				<div class="left">
+					<a href="javascript:void(0);"><img src="img/logo.png" /></a>
+				</div>
+				<div class="right">
+					<p>
+						<a href="javascript:void(0);">登录</a>
+						<a href="javascript:void(0);">注册</a>
+						<a href="javascript:void(0);">购物车</a>
+					</p>
+					<div class="seacher">
+						<input type="text" class="txt" placeholder="关键字"/>
+						<input type="submit" class="btn"  value="搜索"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<ul class="link1">
+				<li ><a href="javascript:void(0);" class="active">首页<i class="tool"></i></a></li>
+				<li><a href="javascript:void(0);">关于我们f</a></li>
+				<li><a href="javascript:void(0);">新闻中心</a></li>
+				<li><a href="javascript:void(0);">乐聚慧商城</a></li>
+				<li><a href="javascript:void(0);">乐币商城</a></li>
+				<li class="none"><a href="javascript:void(0);">会员中心d</a></li>
+				<li class="none"><a href="javascript:void(0);">活动专区</a></li>
+				<li class="more">
+					<a href="javascript:void(0);" class="mor">更多</a>
+					<ul class="link2">
+						<li><a href="javascript:void(0);">会员中心</a></li>
+						<li><a href="javascript:void(0);">活动专区gg</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="img">
+			<img src="http://file.tuweia.cn/M00/18/F9/CoPea1SzjkaALgdzAAWpO5N3cQQ316.jpg?imageMogr2/thumbnail/1263x9999%3E/quality/90"/>
+		</div>
+		<div id="container">
+			<h2 class="title_h2">健康生态保护绳</h2>
+			<h3 class="title_h3">安全美味的生态晚宴 清冽甘泉的健康水源 自由清新的雨后空气</h3>
+			<div class="content">
+				<dl>
+					<dt><img src="http://file.tuweia.cn/M00/18/ED/CoPea1SzeCWAHoGkAAA7uZ0pKLU332.jpg"/></dt>
+					<dd>
+						<h4>乐聚慧zc-ll生态仪</h4>
+						<p>
+							解决食品安全,引领健康第一站!联合清华大学、中国农业科学院,五个唯一——打造中国食品安全领域的领导品牌等等
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><img src="http://file.tuweia.cn/M00/18/D2/CoPea1SzPp-ANY4pAAA2D7kwioo379.jpg"/></dt>
+					<dd>
+						<h4>乐聚慧zc-ll生态仪</h4>
+						<p>
+							解决食品安全,引领健康第一站!联合清华大学、中国农业科学院,五个唯一——打造中国食品安全领域的领导品牌等等
+						</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt><img src="http://file.tuweia.cn/M00/18/ED/CoPea1SzeHOAAf5hAAAkjsj4E7M667.jpg"/></dt>
+					<dd>
+						<h4>乐聚慧zc-ll生态仪</h4>
+						<p>
+							解决食品安全,引领健康第一站!联合清华大学、中国农业科学院,五个唯一——打造中国食品安全领域的领导品牌等等
+						</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div id="wo">
+			<div class="wo_content">
+				<div class="wo_left">
+					<h2 class="tit">关于我们</h2>
+					<p>"欢乐相聚,智慧生活",是"乐聚慧生活"的品牌口号,"民以食为天,食以安慰先,"乐聚慧生活为了落实国家对解决食品安全难题的倡导,为了解决日益严重的食品危机问题,为了老百姓的生命安全和健康,我们致力于食品安全,安全食品,引领食品安全第一站的经营理念,求实发展,传递爱心,追求食品安全的完美,携手共建健康美好的生活。</p>
+					<img src="http://file.tuweia.cn/M00/18/DD/CoPea1SzXamAMLS-AAClhMcIXKQ377.jpg?imageMogr2/thumbnail/722x9999%3E/quality/90"/>
+				</div>
+				<div class="wo_right">
+					<h2 class="tit">关于我们<span>More+</span></h2>
+					<dl>
+						<dt><img src="http://file.tuweia.cn/f3fe38f77fd95951815d1a78871aeaba02d9f01c.png?imageMogr2/thumbnail/!320x320r/crop/320x320/quality/90"/></dt>
+						<dd>美国浪佛罗费笛上海新闻发布会,p【乐聚慧生活】联合无锡二端健康有限公司,在绍兴饭店召开了,现在由新闻坊、新闻综合、静安新闻等多家媒体进行跟踪报道，全民的洗肺健康理念！</dd>
+					</dl>
+					<ul>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+						<li>
+							<i></i>
+							<a href="javascript:void(0);">【乐聚慧生活】端午佳节联欢会</a>
+							<span>2016/06/08</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<p class="tel">TEL :400-0216-155 / 地址:上海市 / MAIL :464286456@qq.com</p>
+			<p class="copy">copyright&copy; All Rights Reserved</p>
+			<p class="wang">网站在突唯阿tuweia.cn创建</p>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script>
+			$(function(){
+				$(".link1>li").hover(function(e){
+					$(".link1>li").children().removeClass("active");
+					$(this).children().addClass("active");
+				},function(e){
+					$(".link1>li").children().removeClass("active");
+				});
+				$(".more").mouseenter(function(){
+					$(".link2").fadeIn();
+				});
+				$(".more").mouseleave(function(){
+					$(".link2").fadeOut();
+				});
+				var isshow = true;
+				$(".link1>li").eq(0).click(function() {
+					if (isshow) {
+						isshow = false;
+						$(".link1>li").show();
+						$(".tool").css({
+							"border-color":"transparent transparent #fff transparent",
+							"margin-top":10
+						});
+					}
+					else {
+						isshow = true;
+						$(".link1>li:not(:first)").hide();
+						$(".tool").css({
+							"border-color":"#fff transparent transparent transparent",
+							"margin-top":16
+						});
+					}
+				});
+
+
+
+
+
+
+
+
+
+
+			});
+
+
+
+
+		</script>
+
+	</body>
+</html>
